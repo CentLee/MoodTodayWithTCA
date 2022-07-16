@@ -14,6 +14,16 @@
 		F9A4283B2882957F0036A804 /* MoodTodayWithTCATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A4283A2882957F0036A804 /* MoodTodayWithTCATests.swift */; };
 		F9A428452882957F0036A804 /* MoodTodayWithTCAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A428442882957F0036A804 /* MoodTodayWithTCAUITests.swift */; };
 		F9A428472882957F0036A804 /* MoodTodayWithTCAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A428462882957F0036A804 /* MoodTodayWithTCAUITestsLaunchTests.swift */; };
+		F9A42855288297BD0036A804 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = F9A42854288297BD0036A804 /* ComposableArchitecture */; };
+		F9A42858288297CB0036A804 /* ComposableCoreLocation in Frameworks */ = {isa = PBXBuildFile; productRef = F9A42857288297CB0036A804 /* ComposableCoreLocation */; };
+		F9A4285A2882A2950036A804 /* AgreementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A428592882A2950036A804 /* AgreementView.swift */; };
+		F9A428602882B5520036A804 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = F9A4285F2882B5520036A804 /* CombineMoya */; };
+		F9A428622882B5520036A804 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = F9A428612882B5520036A804 /* Moya */; };
+		F9A428652882B5D40036A804 /* CombineExt in Frameworks */ = {isa = PBXBuildFile; productRef = F9A428642882B5D40036A804 /* CombineExt */; };
+		F9A428682882B5E80036A804 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F9A428672882B5E80036A804 /* Alamofire */; };
+		F9A4286A2882B6FD0036A804 /* TodayWeatherContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A428692882B6FD0036A804 /* TodayWeatherContainerView.swift */; };
+		F9A4286D2882B70D0036A804 /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A4286C2882B70D0036A804 /* WeatherAPI.swift */; };
+		F9A4286F2882B7180036A804 /* ParticularMatterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A4286E2882B7180036A804 /* ParticularMatterAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,10 @@
 		F9A428402882957F0036A804 /* MoodTodayWithTCAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodTodayWithTCAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A428442882957F0036A804 /* MoodTodayWithTCAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTodayWithTCAUITests.swift; sourceTree = "<group>"; };
 		F9A428462882957F0036A804 /* MoodTodayWithTCAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTodayWithTCAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9A428592882A2950036A804 /* AgreementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementView.swift; sourceTree = "<group>"; };
+		F9A428692882B6FD0036A804 /* TodayWeatherContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWeatherContainerView.swift; sourceTree = "<group>"; };
+		F9A4286C2882B70D0036A804 /* WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
+		F9A4286E2882B7180036A804 /* ParticularMatterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticularMatterAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9A42855288297BD0036A804 /* ComposableArchitecture in Frameworks */,
+				F9A42858288297CB0036A804 /* ComposableCoreLocation in Frameworks */,
+				F9A428622882B5520036A804 /* Moya in Frameworks */,
+				F9A428682882B5E80036A804 /* Alamofire in Frameworks */,
+				F9A428652882B5D40036A804 /* CombineExt in Frameworks */,
+				F9A428602882B5520036A804 /* CombineMoya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +114,9 @@
 		F9A428282882957D0036A804 /* MoodTodayWithTCA */ = {
 			isa = PBXGroup;
 			children = (
+				F9A4285D2882B5030036A804 /* Data Layer */,
+				F9A4285C2882B4C20036A804 /* TodayWeather */,
+				F9A4285B2882B4B90036A804 /* Agreement */,
 				F9A428292882957D0036A804 /* MoodTodayWithTCAApp.swift */,
 				F9A4282B2882957D0036A804 /* ContentView.swift */,
 				F9A4282D2882957E0036A804 /* Assets.xcassets */,
@@ -127,6 +150,55 @@
 			path = MoodTodayWithTCAUITests;
 			sourceTree = "<group>";
 		};
+		F9A4285B2882B4B90036A804 /* Agreement */ = {
+			isa = PBXGroup;
+			children = (
+				F9A428592882A2950036A804 /* AgreementView.swift */,
+			);
+			path = Agreement;
+			sourceTree = "<group>";
+		};
+		F9A4285C2882B4C20036A804 /* TodayWeather */ = {
+			isa = PBXGroup;
+			children = (
+				F9A428692882B6FD0036A804 /* TodayWeatherContainerView.swift */,
+			);
+			path = TodayWeather;
+			sourceTree = "<group>";
+		};
+		F9A4285D2882B5030036A804 /* Data Layer */ = {
+			isa = PBXGroup;
+			children = (
+				F9A428712882B7300036A804 /* DTO */,
+				F9A428702882B72C0036A804 /* Repository */,
+				F9A4286B2882B7040036A804 /* APIs */,
+			);
+			path = "Data Layer";
+			sourceTree = "<group>";
+		};
+		F9A4286B2882B7040036A804 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				F9A4286C2882B70D0036A804 /* WeatherAPI.swift */,
+				F9A4286E2882B7180036A804 /* ParticularMatterAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		F9A428702882B72C0036A804 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		F9A428712882B7300036A804 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +215,14 @@
 			dependencies = (
 			);
 			name = MoodTodayWithTCA;
+			packageProductDependencies = (
+				F9A42854288297BD0036A804 /* ComposableArchitecture */,
+				F9A42857288297CB0036A804 /* ComposableCoreLocation */,
+				F9A4285F2882B5520036A804 /* CombineMoya */,
+				F9A428612882B5520036A804 /* Moya */,
+				F9A428642882B5D40036A804 /* CombineExt */,
+				F9A428672882B5E80036A804 /* Alamofire */,
+			);
 			productName = MoodTodayWithTCA;
 			productReference = F9A428262882957D0036A804 /* MoodTodayWithTCA.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +295,13 @@
 				Base,
 			);
 			mainGroup = F9A4281D2882957D0036A804;
+			packageReferences = (
+				F9A42853288297BD0036A804 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				F9A42856288297CB0036A804 /* XCRemoteSwiftPackageReference "composable-core-location" */,
+				F9A4285E2882B5520036A804 /* XCRemoteSwiftPackageReference "Moya" */,
+				F9A428632882B5D40036A804 /* XCRemoteSwiftPackageReference "CombineExt" */,
+				F9A428662882B5E80036A804 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = F9A428272882957D0036A804 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,6 +345,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9A4282C2882957D0036A804 /* ContentView.swift in Sources */,
+				F9A4286A2882B6FD0036A804 /* TodayWeatherContainerView.swift in Sources */,
+				F9A4286D2882B70D0036A804 /* WeatherAPI.swift in Sources */,
+				F9A4285A2882A2950036A804 /* AgreementView.swift in Sources */,
+				F9A4286F2882B7180036A804 /* ParticularMatterAPI.swift in Sources */,
 				F9A4282A2882957D0036A804 /* MoodTodayWithTCAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -583,6 +674,82 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F9A42853288297BD0036A804 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		F9A42856288297CB0036A804 /* XCRemoteSwiftPackageReference "composable-core-location" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/composable-core-location";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		F9A4285E2882B5520036A804 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+		F9A428632882B5D40036A804 /* XCRemoteSwiftPackageReference "CombineExt" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/CombineExt.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		F9A428662882B5E80036A804 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F9A42854288297BD0036A804 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9A42853288297BD0036A804 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		F9A42857288297CB0036A804 /* ComposableCoreLocation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9A42856288297CB0036A804 /* XCRemoteSwiftPackageReference "composable-core-location" */;
+			productName = ComposableCoreLocation;
+		};
+		F9A4285F2882B5520036A804 /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9A4285E2882B5520036A804 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		F9A428612882B5520036A804 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9A4285E2882B5520036A804 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		F9A428642882B5D40036A804 /* CombineExt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9A428632882B5D40036A804 /* XCRemoteSwiftPackageReference "CombineExt" */;
+			productName = CombineExt;
+		};
+		F9A428672882B5E80036A804 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9A428662882B5E80036A804 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F9A4281E2882957D0036A804 /* Project object */;
 }
