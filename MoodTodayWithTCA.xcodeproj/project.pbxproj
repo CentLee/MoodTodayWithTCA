@@ -24,6 +24,7 @@
 		F9A4286A2882B6FD0036A804 /* TodayWeatherContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A428692882B6FD0036A804 /* TodayWeatherContainerView.swift */; };
 		F9A4286D2882B70D0036A804 /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A4286C2882B70D0036A804 /* WeatherAPI.swift */; };
 		F9A4286F2882B7180036A804 /* ParticularMatterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A4286E2882B7180036A804 /* ParticularMatterAPI.swift */; };
+		F9A428742882B7580036A804 /* gFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A428732882B7580036A804 /* gFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		F9A428692882B6FD0036A804 /* TodayWeatherContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWeatherContainerView.swift; sourceTree = "<group>"; };
 		F9A4286C2882B70D0036A804 /* WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
 		F9A4286E2882B7180036A804 /* ParticularMatterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticularMatterAPI.swift; sourceTree = "<group>"; };
+		F9A428732882B7580036A804 /* gFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		F9A428282882957D0036A804 /* MoodTodayWithTCA */ = {
 			isa = PBXGroup;
 			children = (
+				F9A428722882B7510036A804 /* Utils */,
 				F9A4285D2882B5030036A804 /* Data Layer */,
 				F9A4285C2882B4C20036A804 /* TodayWeather */,
 				F9A4285B2882B4B90036A804 /* Agreement */,
@@ -197,6 +200,14 @@
 			children = (
 			);
 			path = DTO;
+			sourceTree = "<group>";
+		};
+		F9A428722882B7510036A804 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F9A428732882B7580036A804 /* gFunction.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9A428742882B7580036A804 /* gFunction.swift in Sources */,
 				F9A4282C2882957D0036A804 /* ContentView.swift in Sources */,
 				F9A4286A2882B6FD0036A804 /* TodayWeatherContainerView.swift in Sources */,
 				F9A4286D2882B70D0036A804 /* WeatherAPI.swift in Sources */,
