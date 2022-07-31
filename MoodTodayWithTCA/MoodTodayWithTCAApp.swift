@@ -11,7 +11,7 @@ import SwiftUI
 struct MoodTodayWithTCAApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TodayWeatherContainerView()
         }
     }
 }

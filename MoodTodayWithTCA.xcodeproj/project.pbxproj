@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F93F715F2895399200656CA9 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F715E2895399200656CA9 /* WeatherView.swift */; };
 		F9A4282A2882957D0036A804 /* MoodTodayWithTCAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A428292882957D0036A804 /* MoodTodayWithTCAApp.swift */; };
 		F9A4282C2882957D0036A804 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A4282B2882957D0036A804 /* ContentView.swift */; };
 		F9A4282E2882957E0036A804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9A4282D2882957E0036A804 /* Assets.xcassets */; };
@@ -25,6 +26,10 @@
 		F9A4286D2882B70D0036A804 /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A4286C2882B70D0036A804 /* WeatherAPI.swift */; };
 		F9A4286F2882B7180036A804 /* ParticularMatterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A4286E2882B7180036A804 /* ParticularMatterAPI.swift */; };
 		F9A428742882B7580036A804 /* gFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A428732882B7580036A804 /* gFunction.swift */; };
+		F9A4288D2894D8650036A804 /* TodayWeatherSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A4288C2894D8650036A804 /* TodayWeatherSummaryView.swift */; };
+		F9A428952894E0FD0036A804 /* NIXGONFONTS L 2.0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9A428922894E0FD0036A804 /* NIXGONFONTS L 2.0.ttf */; };
+		F9A428962894E0FD0036A804 /* NIXGONFONTS M 2.0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9A428932894E0FD0036A804 /* NIXGONFONTS M 2.0.ttf */; };
+		F9A428972894E0FD0036A804 /* NIXGONFONTS B 2.0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9A428942894E0FD0036A804 /* NIXGONFONTS B 2.0.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F93F715C2894EA7D00656CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F93F715E2895399200656CA9 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		F9A428262882957D0036A804 /* MoodTodayWithTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodTodayWithTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A428292882957D0036A804 /* MoodTodayWithTCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTodayWithTCAApp.swift; sourceTree = "<group>"; };
 		F9A4282B2882957D0036A804 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +67,10 @@
 		F9A4286C2882B70D0036A804 /* WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
 		F9A4286E2882B7180036A804 /* ParticularMatterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticularMatterAPI.swift; sourceTree = "<group>"; };
 		F9A428732882B7580036A804 /* gFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gFunction.swift; sourceTree = "<group>"; };
+		F9A4288C2894D8650036A804 /* TodayWeatherSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWeatherSummaryView.swift; sourceTree = "<group>"; };
+		F9A428922894E0FD0036A804 /* NIXGONFONTS L 2.0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NIXGONFONTS L 2.0.ttf"; sourceTree = "<group>"; };
+		F9A428932894E0FD0036A804 /* NIXGONFONTS M 2.0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NIXGONFONTS M 2.0.ttf"; sourceTree = "<group>"; };
+		F9A428942894E0FD0036A804 /* NIXGONFONTS B 2.0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NIXGONFONTS B 2.0.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F93F715D2895394500656CA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9A4288C2894D8650036A804 /* TodayWeatherSummaryView.swift */,
+				F93F715E2895399200656CA9 /* WeatherView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F9A4281D2882957D0036A804 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +136,8 @@
 		F9A428282882957D0036A804 /* MoodTodayWithTCA */ = {
 			isa = PBXGroup;
 			children = (
+				F93F715C2894EA7D00656CA9 /* Info.plist */,
+				F9A428902894E08C0036A804 /* Supporting Files */,
 				F9A428722882B7510036A804 /* Utils */,
 				F9A4285D2882B5030036A804 /* Data Layer */,
 				F9A4285C2882B4C20036A804 /* TodayWeather */,
@@ -164,6 +186,8 @@
 		F9A4285C2882B4C20036A804 /* TodayWeather */ = {
 			isa = PBXGroup;
 			children = (
+				F9A4288B2894D8490036A804 /* TodayWeatherChart */,
+				F9A4288A2894D82F0036A804 /* TodayWeatherSummary */,
 				F9A428692882B6FD0036A804 /* TodayWeatherContainerView.swift */,
 			);
 			path = TodayWeather;
@@ -208,6 +232,39 @@
 				F9A428732882B7580036A804 /* gFunction.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		F9A4288A2894D82F0036A804 /* TodayWeatherSummary */ = {
+			isa = PBXGroup;
+			children = (
+				F93F715D2895394500656CA9 /* View */,
+			);
+			path = TodayWeatherSummary;
+			sourceTree = "<group>";
+		};
+		F9A4288B2894D8490036A804 /* TodayWeatherChart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TodayWeatherChart;
+			sourceTree = "<group>";
+		};
+		F9A428902894E08C0036A804 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9A428912894E0FD0036A804 /* Fonts */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9A428912894E0FD0036A804 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F9A428922894E0FD0036A804 /* NIXGONFONTS L 2.0.ttf */,
+				F9A428932894E0FD0036A804 /* NIXGONFONTS M 2.0.ttf */,
+				F9A428942894E0FD0036A804 /* NIXGONFONTS B 2.0.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,8 +386,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9A428972894E0FD0036A804 /* NIXGONFONTS B 2.0.ttf in Resources */,
+				F9A428962894E0FD0036A804 /* NIXGONFONTS M 2.0.ttf in Resources */,
 				F9A428312882957E0036A804 /* Preview Assets.xcassets in Resources */,
 				F9A4282E2882957E0036A804 /* Assets.xcassets in Resources */,
+				F9A428952894E0FD0036A804 /* NIXGONFONTS L 2.0.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +417,8 @@
 			files = (
 				F9A428742882B7580036A804 /* gFunction.swift in Sources */,
 				F9A4282C2882957D0036A804 /* ContentView.swift in Sources */,
+				F93F715F2895399200656CA9 /* WeatherView.swift in Sources */,
+				F9A4288D2894D8650036A804 /* TodayWeatherSummaryView.swift in Sources */,
 				F9A4286A2882B6FD0036A804 /* TodayWeatherContainerView.swift in Sources */,
 				F9A4286D2882B70D0036A804 /* WeatherAPI.swift in Sources */,
 				F9A4285A2882A2950036A804 /* AgreementView.swift in Sources */,
@@ -523,6 +585,7 @@
 				DEVELOPMENT_TEAM = NF58AE9U4V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoodTodayWithTCA/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -552,6 +615,7 @@
 				DEVELOPMENT_TEAM = NF58AE9U4V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoodTodayWithTCA/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
